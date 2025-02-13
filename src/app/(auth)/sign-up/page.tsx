@@ -1,7 +1,7 @@
+"use client";
+
+import { SignUpCard } from "@/app/features/auth/components/SignUpCard";
+
 export default function SignUpPage() {
-  return (
-    <div>
-      <h1>Sign up page</h1>
-    </div>
-  );
+  return <SignUpCard />;
 }
